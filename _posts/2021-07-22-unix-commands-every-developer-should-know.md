@@ -46,19 +46,37 @@ cd allows you to navigate from one directory to another. You can give an absolut
 relative path. Relative path is the location of the directory from your current folder.
 Let us try to navigate the directory created above aka a b and c
 
-`cd a` - Enters directory a and this is relative path from current directory.
+Enters directory a and this is relative path from current directory.
+```
+cd a 
+``` 
 
-`cd b` - Enters directory b from current directory
+Enters directory b from current directory
+```
+cd b
+``` 
 
-`cd /Users/expanse/a/b/c` - Enter directory c using absolute path aka the complete path on the filesystem.
+Enter directory c using absolute path aka the complete path on the filesystem.
+```
+cd /Users/expanse/a/b/c
+``` 
 
 you can use 
+```
+cd ..
+``` 
+to go to parent directory from current directory.
 
-`cd ..` to go to parent directory from current directory 
 
-`cd -` to go back to previous directory before you entered this one.
+```
+cd -
+``` 
+to go back to previous directory before you entered this one.
 
-`cd` without any argument goes to the home directory of the user.
+```
+cd
+``` 
+without any argument goes to the home directory of the user.
 
 
 ## free
@@ -74,7 +92,9 @@ Swap:             0           0           0
 
 this show you how much of free Mem and swap space is there. To know the same in MB and GB do this 
 
-`free -mh`
+```
+free -mh
+```
 
 ```
 deploy@linux:~$ free -mh
@@ -87,7 +107,9 @@ Swap:            0B          0B          0B
 
 df tell you how much disk space is free in every partition.  e.g. 
 
-`df -h`
+```
+df -h
+```
 
 ```
 deploy@deploy:~$ df -h 
@@ -151,18 +173,30 @@ Swap:             0           0           0
 
 say you want to run a command and let it run even after you have existed the terminal aka run the program in background without the terminal running. Use the command screen
 
-Run `screen` and you will be greeted by a copyright message, `[Press Space or Return to end.]`
+Run 
+```
+screen
+``` 
+and you will be greeted by a copyright message, 
+```[Press Space or Return to end.]```
+
 and you will see a normal shell prompt. Here you can simply run a script and exit screen by entering the command 
-`ctrl + ad` and to enter the screen again simply type `screen -r -d`
+
+```
+ctrl + ad
+```
+
+and to enter the screen again simply type  ```screen -r -d```
 
 
 ## | and grep
 
-say you have a file with thousands of lines and want to find amongst that a word. We have seen that we can print the content of a file with cat. grep allows you to find the existence of a word in a line. | will allow you to take the output of one and make it the input of another. What the hell am I talking?.  e.g.
+say you have a file with thousands of lines and want to find amongst that a word. 
+We have seen that we can print the content of a file with cat. grep allows you to find the existence of a word in a line. `|` will allow you to take the output of one and make it the input of another. What the hell am I talking?.  e.g.
 
 ```
 deploy@deploy:~$ cat tennisnews.txt | grep swordsmaster
 http://blog.xuite.net/swordsmaster/tennis/rss.xml
 ```
 
-so | made the output of tennisnews.txt as the input of grep.
+so `|` made the output of tennisnews.txt as the input of grep.
