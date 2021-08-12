@@ -11,8 +11,8 @@ Few facts from my life that shape my opinion on home purchase
 
 - My Parents have brought multiple apartments in Mumbai. Dad would visualize how their neighbourhood, 
 community will evolve over 10-25 year horizon. Parents would gather and converse over data points like 
-distance to of schools, hospitals, bus stand, railway station etc. They visited every weekend first half
-under construction apartments over a span of 18-20 months before deciding. I did the same along with my dad 
+distance to schools, hospitals, bus stand, railway station etc. They kept weekends first half for visiting 
+under construction apartments, over a span of 18-20 months before buying. I did the same along with my dad 
 for the one we just brought in Bengaluru. This time we took 28 months before buying.
 
 Here are data points on what I consider constitute a good purchase
