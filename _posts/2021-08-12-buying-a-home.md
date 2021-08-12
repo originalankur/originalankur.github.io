@@ -1,6 +1,3 @@
-Buying a home
--------------
-
 Few facts from my life that shape my opinion on home purchase
 
 - My parents maintain a comfortable, secure lifestyle with rental income being 60% of their passive monthly income.
