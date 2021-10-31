@@ -18,7 +18,7 @@ Let me answer inversely. Who is most likely not to be asked to leave?
 
 3) Good personal relationship across teams and with peers,
 
-5) You have spent a long time at the company and are known to be loyal to the company, someone who will stick around in the tough times ahead.
+4) You have spent a long time at the company and are known to be loyal to the company, someone who will stick around in the tough times ahead.
 
 Everyone else is at risk of being asked to leave.
 
