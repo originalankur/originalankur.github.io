@@ -17,7 +17,7 @@ search_provider: # lunr (default), algolia
 
 # Build settings
 markdown: kramdown
-theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
