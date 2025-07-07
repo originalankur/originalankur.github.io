@@ -9,6 +9,7 @@ description: >
 
 I recently concluded a subcontracted project for one of the top real estate builders in the Middle East. 
 
+## Requirement
 With the advent of viral real estate listings on social media comes a barrage of call center inquiries about the projects and their details. The UAE, in particular, receives calls from across the globe.
 
 The client was already using an AI SaaS product that would take call recordings and extract:
@@ -22,7 +23,7 @@ The client was already using an AI SaaS product that would take call recordings 
 
 The system also tagged phone numbers and other metadata, automatically raising CRM tickets. These tickets were routed to agents over WhatsApp within seconds, along with a dossier containing extracted details, a transcript, and a playable audio file link. This enabled agents to exercise judgment and prioritize callbacks effectively.
 
-The pricing with the SaaS provider was a fixed cost of 7 AED per call. My task was to replicate this functionality at a lower cost, while ensuring the client’s in-house tech team could take over and fully own the resulting IP.
+**The pricing with the SaaS provider was a fixed cost of 7 AED per call. My task was to replicate this functionality at a lower cost, while ensuring the client’s in-house tech team could take over and fully own the resulting IP.**
 
 ## Audio Processing
 
@@ -56,4 +57,3 @@ Tech stack:
   - Cloud Storage
   - Gemini 2.5 Pro
   - Speech-to-text
----
