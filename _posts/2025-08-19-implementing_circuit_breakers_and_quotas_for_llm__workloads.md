@@ -1,3 +1,12 @@
+---
+layout: post
+title: >
+    Circuit Breakers and Quotas for LLM Workloads
+tags: [llms, technology, finops, cost]
+description: >
+    how to ensure LLM API usage are in check without overengineering a solution.
+---
+
 ## Circuit Breakers and Quotas for LLM Workloads
 
 LLM APIs can rack up costs fast—especially in background jobs, serverless functions, or cron-based pipelines running as part of CI/CD or due to programmatic errors doing retries. Here's how to keep usage in check without overengineering a solution.
