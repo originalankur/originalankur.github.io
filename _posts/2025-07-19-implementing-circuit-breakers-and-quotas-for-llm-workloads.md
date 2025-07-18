@@ -11,7 +11,7 @@ description: >
 
 LLM APIs can rack up costs fast—especially in background jobs, serverless functions, or cron-based pipelines running as part of CI/CD or due to programmatic errors doing retries. Here's how to keep usage in check without overengineering a solution.
 
-### Set Budget Alerts and Quotas
+#### Set Budget Alerts and Quotas
 
 Start with basic alert guardrails:
 
@@ -21,7 +21,7 @@ Start with basic alert guardrails:
 
 These won’t stop usage, but they give early warning.
 
-### Use Separate Keys for Staging vs Production
+#### Use Separate Keys for Staging vs Production
 
 Create different API keys with distinct limits:
 
@@ -30,7 +30,7 @@ Create different API keys with distinct limits:
 
 This prevents accidental overuse during testing and helps in bifurcation.
 
-### Create a Billing APIs that can be called programmatically
+#### Create a Billing APIs that can be called programmatically
 
 Use cloud billing APIs to track LLM spend:
 
@@ -40,7 +40,7 @@ Use cloud billing APIs to track LLM spend:
 
 Against service name once get granular cost usage and return boolean stating if LLM api calls can be made or not.
 
-### Add Circuit Breakers in Code by calling above API
+#### Add Circuit Breakers in Code by calling above API
 
 Check usage every Nth requests or every Nth min elapsed based of your worker being stateless or stateful. Stop LLM usage if api returns false.
 
